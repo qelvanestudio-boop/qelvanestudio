@@ -1,0 +1,63 @@
+name: "ゲーム試遊報告 / Play feedback"
+description: "Qelvane Prompt Play Labで実際に遊んだ結果をお知らせください"
+title: "[PLAY] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Qelvane Prompt Play Labの試遊レポート用です。ご自身が実際に行った操作のみ記入してください。
+        本名・メールアドレス・個人情報・決済情報の記載は不要です。
+  - type: dropdown
+    id: game_type
+    attributes:
+      label: 遊んだゲーム
+      options:
+        - 宇宙シューティング
+        - 夜の街レース
+        - 森の宝探し
+        - その他の入力
+    validations:
+      required: true
+  - type: dropdown
+    id: device
+    attributes:
+      label: 使用した端末
+      options:
+        - PC / キーボード
+        - スマートフォン / タッチ操作
+        - タブレット
+        - その他
+    validations:
+      required: true
+  - type: dropdown
+    id: progress
+    attributes:
+      label: どこまで遊べたか
+      options:
+        - 起動できなかった
+        - ゲームを開始できた
+        - プレイ途中まで進んだ
+        - クリアできた
+        - 再挑戦・別のゲームも遊んだ
+    validations:
+      required: true
+  - type: textarea
+    id: feedback
+    attributes:
+      label: 操作で困ったこと・改善してほしいこと
+      description: 実際に見た現象や改善提案を書いてください
+      placeholder: 例：スマホ画面では右ボタンが押しづらかった
+    validations:
+      required: true
+  - type: dropdown
+    id: paid_interest
+    attributes:
+      label: 完成版への関心（任意）
+      description: 回答は購入の約束ではありません
+      options:
+        - 無料版があればまた遊びたい
+        - 追加内容によっては有料版を検討する
+        - 有料版は求めない
+        - まだ判断できない
+    validations:
+      required: false
