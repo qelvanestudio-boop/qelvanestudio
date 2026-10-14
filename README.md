@@ -2,7 +2,9 @@
 
 **文章を入力して、すぐゲームを遊ぶ。**
 
-[▶ Qelvane Prompt Play Lab を試す](https://yorumachi-test.vercel.app/)
+[▶ Qelvane Prompt Play Lab を試す（GitHub入口のクリック計測）](https://linkly.link/2wTVd)
+
+[直接開く（リンクが使えない場合）](https://yorumachi-test.vercel.app/)
 
 無料・インストール不要・PCとスマートフォンに対応したゲームの試遊版です。
 
@@ -18,10 +20,13 @@ PC：左右矢印または A / D で移動。シューティングでは Space �
 
 スマホ：画面上の左右ボタンを使用。シューティングでは ACTION で攻撃。
 
-### ご意見・不具合
-[試遊した感想や不具合を GitHub Issues に報告する](https://github.com/qelvanestudio-boop/qelvanestudio/issues/new)
+### 試遊後の感想・購入意向
+- [遊んだ感想や不具合を投稿（GitHubアカウントが必要）](https://github.com/qelvanestudio-boop/qelvanestudio/issues/new?template=play-feedback.yml)
+- [メールで感想を送る（GitHubアカウント不要）](mailto:qelvane.studio@gmail.com?subject=Qelvane%20Prompt%20Play%20Lab%20feedback)
 
-ご自身が実際に遊んだ内容だけをお知らせください。個人情報の記入は不要です。GitHub Issuesへの投稿にはGitHubアカウントが必要です。
+感想には「遊んだジャンル」「操作できたか」「改善してほしい点」を書いてください。有料の完成版に欲しい内容があれば任意でお知らせください。連絡先をゲーム内で収集することはありません。メールを送る場合は送信元メールアドレスが届きます。
+
+クリック計測はゲームへの**入口**の確認だけに使います。クリック数だけではプレイ・購入・人間による利用を証明しません。
 
 ### 公開内容の範囲
 現在は**技術試作版**です。指示文はルールベースで解釈しており、生成AIが任意のゲームコード・画像・音楽を自動制作するサービスではありません。課金機能はありません。
